@@ -45,7 +45,7 @@ let baseMaps = {
 let map = L.map('mapid', {
     center:[43.7,-79.3],
     zoom: 11,
-    layers: [satelliteStreets]
+    layers: [streets]
 });
 
 L.control.layers(baseMaps).addTo(map);
